@@ -1,5 +1,5 @@
 # FlightReservation
-API in Spring Boot to search over available flights
+API in Spring Boot to search over available flights 
 This API is used to read two formats of json object data of flights one is cheap and the other is business flights.
 Cheap flight have the following json data [{id:Long,departure:String,arrival:String,departureTime:Long,arrivalTime:Long}]
 and the business flight have [{uuid:String,flight:String,departure:String,arrival:String}] 
