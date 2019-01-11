@@ -47,10 +47,10 @@ public class FlightController {
 	public ArrayList  getAvaiblableCheapFlight() {
 		return flightService.getAvailableCheapFlightList();
 	}
-	@RequestMapping("/businessFlight/{uuid}")
+	/*@RequestMapping("/businessFlight/{uuid}")
 	public BusinessFlightInfo getBusinessFlightInfo(@PathVariable String uuid) {
 		return flightService.getBusinessFlight(uuid);
-	}
+	}*/
 	
 	@RequestMapping(method=RequestMethod.POST,value="/cheapFlights")
 	public void addCheapFlight(@RequestBody Object cheapFlightInfo) {
